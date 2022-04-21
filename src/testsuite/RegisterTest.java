@@ -94,7 +94,7 @@ public class RegisterTest extends BaseTest {
         enterConfirm.sendKeys("Goodbye123454545");
 
         //Click on REGISTER button
-        WebElement clickRegisterBtn = driver.findElement(By.xpath("//input[@type='submit']"));
+        WebElement clickRegisterBtn = driver.findElement(By.xpath("//table[@class='form2']//input[@type='submit']"));
         clickRegisterBtn.click();
 
         //Verify the text 'Your account was created successfully. You are now logged in.’
